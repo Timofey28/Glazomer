@@ -1,0 +1,15 @@
+# IDE
+.idea/
+__pycache__/
+
+# Logs/data
+*.log
+*.txt
+data.py
+
+# Service
+upload_files_to_server.py
+upload_files_to_server.bat
+
+# Do not ignore!
+!requirements.txt
