@@ -115,7 +115,7 @@ def pick_up_ending_2(n: int) -> str:
 
 
 async def send_some_wisdom(update: Update):
-    msg = escape_markdown(random.choice(famous_quotes), version=1).replace('«', '_').replace('».', '_\n©')
+    msg = escape_markdown(random.choice(famous_quotes), version=1).replace('«', '_').replace('».', '_\n©').replace('»', '_\n©')
     await update.message.reply_text(msg, parse_mode='markdown')
 
 
